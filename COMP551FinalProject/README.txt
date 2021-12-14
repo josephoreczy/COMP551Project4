@@ -1,5 +1,5 @@
 *This repository subsumes the original papers repository and contains its original README detailing the project structure and the available commands.
-*The structure and commands in the codebase are so concise as to preclude non-redundant restatement, see the README in the flowandprune directory.
+*The structure and commands in the codebase are so concise as to preclude non-redundant summarization, see the README in the flowandprune directory.
 *note that the proxies: ma, ev, and tr for main eval and train respectively are additions made for purposes in this project.
 **Note: the resultant pruned/trained model from a ma.py command will be stored in the relative path: pruned_nets/{description-of-model}.pth**
 **Note: the resultant trained model from a tr.py command would be stored in the relative path: pretrained/{description-of-mode}.pth, but we do not employ the use of base-models**
