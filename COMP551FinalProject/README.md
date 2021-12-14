@@ -1,6 +1,6 @@
-*This repository subsumes the original papers repository and contains its original README detailing the project structure and the available commands.
-*The structure of the codebase is sufficiently concise, note that the proxies: ma, ev, and tr for main eval and train respectively are additions made for purposes in this project.
-*Below is a distillation of the commands used in this project and their descriptions:
+#This repository subsumes the original papers repository and contains its original README detailing the project structure and the available commands.
+#The structure of the codebase is sufficiently concise, note that the proxies: ma, ev, and tr for main eval and train respectively are additions made for purposes in this project.
+#Below is a distillation of the commands used in this project and their descriptions:
     - 
 **Note: the resultant pruned/trained model from a ma.py command will be stored in the relative path: pruned_nets/{description-of-model}.pth**
 **Note: the resultant trained model from a tr.py command would be stored in the relative path: pretrained/{description-of-mode}.pth, but we do not employ the use of base-models**
@@ -40,4 +40,4 @@
     15. python ev.py --model resnet --pruned True --test_acc True --model_path pruned_nets/resnet-34_grad_preserve_50_temp_5.0_rounds_1_seed_0.pth
     16. python ev.py --model resnet --pruned True --test_acc True --model_path pruned_nets/resnet-34_grad_preserve_50_temp_5.0_rounds_25_seed_0.pth
 
-Note: Our Repo does not contain .pth files for a majority of these, github seemingly has file-size limit, a number of repos were created somewhat chaotically, the above models are smattered throughout.
+Note: Our Repo does not contain .pth files, github seemingly has file-size limit, a number of repos were created somewhat chaotically, the above models are smattered throughout.
